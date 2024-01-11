@@ -1,0 +1,43 @@
+.activity{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    height: 60px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.date{
+    text-align: center;
+}
+.activity-detail div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.call-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+.activity-detail{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.activity-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+.phone-number{
+    font-weight: 600;
+}
+.no-activities{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
